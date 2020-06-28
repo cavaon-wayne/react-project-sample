@@ -31,4 +31,9 @@ module.exports = {
   settings: {
     'import/resolver': 'webpack',
   },
+  overrides: [
+    {
+      excludedFiles: ['*.test.js', '*.config.js', '*rc'],
+    },
+  ],
 };
